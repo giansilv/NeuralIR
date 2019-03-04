@@ -80,14 +80,14 @@ pdf_ap_Table8_WT2G_NVSM = kdEstimation(ap_Table8_WT2G{:,2}, xi, b);
 pdf_ap_Table8_OSHUMED_BM25 = kdEstimation(ap_Table8_OSHUMED{:,3}, xi, b);
 pdf_ap_Table8_OSHUMED_NVSM = kdEstimation(ap_Table8_OSHUMED{:,2}, xi, b);
 
-pdf_ap_Table8_CLEF_IT_BM25 = kdEstimation(ap_Table8_CLEF_IT{:,6}, xi, b);
-pdf_ap_Table8_CLEF_IT_NVSM = kdEstimation(ap_Table8_CLEF_IT{:,2}, xi, b);
+pdf_ap_Table8_CLEF_IT_BM25 = kdEstimation(ap_Table9_CLEF_IT{:,6}, xi, b);
+pdf_ap_Table8_CLEF_IT_NVSM = kdEstimation(ap_Table9_CLEF_IT{:,2}, xi, b);
 
-pdf_ap_Table8_CLEF_DE_BM25 = kdEstimation(ap_Table8_CLEF_DE{:,6}, xi, b);
-pdf_ap_Table8_CLEF_DE_NVSM = kdEstimation(ap_Table8_CLEF_DE{:,2}, xi, b);
+pdf_ap_Table8_CLEF_DE_BM25 = kdEstimation(ap_Table9_CLEF_DE{:,6}, xi, b);
+pdf_ap_Table8_CLEF_DE_NVSM = kdEstimation(ap_Table9_CLEF_DE{:,2}, xi, b);
 
-pdf_ap_Table8_CLEF_FA_BM25 = kdEstimation(ap_Table8_CLEF_FA{:,6}, xi, b);
-pdf_ap_Table8_CLEF_FA_NVSM = kdEstimation(ap_Table8_CLEF_FA{:,2}, xi, b);
+pdf_ap_Table8_CLEF_FA_BM25 = kdEstimation(ap_Table9_CLEF_FA{:,6}, xi, b);
+pdf_ap_Table8_CLEF_FA_NVSM = kdEstimation(ap_Table9_CLEF_FA{:,2}, xi, b);
 
 
 
@@ -109,25 +109,25 @@ subplot(2,3,2)
     legend('BM25', 'NVSM');
     title('Probability density function of OSHUMED (AP)')   
 subplot(2,3,4)
-    plot(xi, pdf_ap_Table8_CLEF_IT_BM25, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_IT_BM25, 'Linewidth', 2);
     hold on
-    plot(xi, pdf_ap_Table8_CLEF_IT_NVSM, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_IT_NVSM, 'Linewidth', 2);
      xlim([0 1]);
     legend('BM25', 'NVSM');
     title('Probability density function of CLEF IT (AP)') 
     
 subplot(2,3,5)
-    plot(xi, pdf_ap_Table8_CLEF_DE_BM25, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_DE_BM25, 'Linewidth', 2);
     hold on
-    plot(xi, pdf_ap_Table8_CLEF_DE_NVSM, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_DE_NVSM, 'Linewidth', 2);
      xlim([0 1]);
     legend('BM25', 'NVSM');
     title('Probability density function of CLEF DE (AP)') 
     
 subplot(2,3,6)
-    plot(xi, pdf_ap_Table8_CLEF_FA_BM25, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_FA_BM25, 'Linewidth', 2);
     hold on
-    plot(xi, pdf_ap_Table8_CLEF_FA_NVSM, 'Linewidth', 2);
+    plot(xi, pdf_ap_Table9_CLEF_FA_NVSM, 'Linewidth', 2);
      xlim([0 1]);
     legend('BM25', 'NVSM');
     title('Probability density function of CLEF FA (AP)') 

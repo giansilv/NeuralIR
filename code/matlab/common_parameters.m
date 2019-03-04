@@ -105,57 +105,57 @@ COLLECTION.Table4_WSJ.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table4_WSJ.RelevanceGrades = 0:1;
 COLLECTION.Table4_WSJ.poolFile = 'WSJ';
 
-COLLECTION.Table5_AP8889.id = 'Table5_AP8889';
-COLLECTION.Table5_AP8889.runSetId = 'runSet_Table5_AP8889';
+COLLECTION.Table5_AP8889.id = 'Table6_AP8889';
+COLLECTION.Table5_AP8889.runSetId = 'runSet_Table6_AP8889';
 COLLECTION.Table5_AP8889.color = rgb('GreenYellow');
 COLLECTION.Table5_AP8889.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table5_AP8889.RelevanceGrades = 0:1;
 COLLECTION.Table5_AP8889.poolFile = 'AP8889'; 
 
-COLLECTION.Table5_FT.id = 'Table5_FT';
-COLLECTION.Table5_FT.runSetId = 'runSet_Table5_FT';
+COLLECTION.Table5_FT.id = 'Table6_FT';
+COLLECTION.Table5_FT.runSetId = 'runSet_Table6_FT';
 COLLECTION.Table5_FT.color = rgb('GreenYellow');
 COLLECTION.Table5_FT.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table5_FT.RelevanceGrades = 0:1;
 COLLECTION.Table5_FT.poolFile = 'FT';
 
-COLLECTION.Table5_LA.id = 'Table5_LA';
-COLLECTION.Table5_LA.runSetId = 'runSet_Table5_LA';
+COLLECTION.Table5_LA.id = 'Table6_LA';
+COLLECTION.Table5_LA.runSetId = 'runSet_Table6_LA';
 COLLECTION.Table5_LA.color = rgb('GreenYellow');
 COLLECTION.Table5_LA.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table5_LA.RelevanceGrades = 0:1;
 COLLECTION.Table5_LA.poolFile = 'LA';
 
-COLLECTION.Table5_Robust04.id = 'Table5_Robust04';
-COLLECTION.Table5_Robust04.runSetId = 'runSet_Table5_Robust04';
+COLLECTION.Table5_Robust04.id = 'Table6_Robust04';
+COLLECTION.Table5_Robust04.runSetId = 'runSet_Table6_Robust04';
 COLLECTION.Table5_Robust04.color = rgb('GreenYellow');
 COLLECTION.Table5_Robust04.RelevanceDegrees = {'NotRelevant', 'Relevant', 'HighlyRelevant'};
 COLLECTION.Table5_Robust04.RelevanceGrades = 0:2;
 COLLECTION.Table5_Robust04.poolFile = 'Robust04';
 
-COLLECTION.Table5_WSJ.id = 'Table5_WSJ';
-COLLECTION.Table5_WSJ.runSetId = 'runSet_Table5_WSJ';
+COLLECTION.Table5_WSJ.id = 'Table6_WSJ';
+COLLECTION.Table5_WSJ.runSetId = 'runSet_Table6_WSJ';
 COLLECTION.Table5_WSJ.color = rgb('GreenYellow');
 COLLECTION.Table5_WSJ.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table5_WSJ.RelevanceGrades = 0:1;
 COLLECTION.Table5_WSJ.poolFile = 'WSJ';
 
-COLLECTION.Table8_CLEF_DE.id = 'Table8_CLEF_DE';
-COLLECTION.Table8_CLEF_DE.runSetId = 'runSet_Table8_CLEF_DE';
+COLLECTION.Table8_CLEF_DE.id = 'Table9_CLEF_DE';
+COLLECTION.Table8_CLEF_DE.runSetId = 'runSet_Table9_CLEF_DE';
 COLLECTION.Table8_CLEF_DE.color = rgb('GreenYellow');
 COLLECTION.Table8_CLEF_DE.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table8_CLEF_DE.RelevanceGrades = 0:1;
 COLLECTION.Table8_CLEF_DE.poolFile = 'CLEF_DE';
 
-COLLECTION.Table8_CLEF_IT.id = 'Table8_CLEF_IT';
-COLLECTION.Table8_CLEF_IT.runSetId = 'runSet_Table8_CLEF_IT';
+COLLECTION.Table8_CLEF_IT.id = 'Table9_CLEF_IT';
+COLLECTION.Table8_CLEF_IT.runSetId = 'runSet_Table9_CLEF_IT';
 COLLECTION.Table8_CLEF_IT.color = rgb('GreenYellow');
 COLLECTION.Table8_CLEF_IT.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table8_CLEF_IT.RelevanceGrades = 0:1;
 COLLECTION.Table8_CLEF_IT.poolFile = 'CLEF_IT';
 
-COLLECTION.Table8_CLEF_FA.id = 'Table8_CLEF_FA';
-COLLECTION.Table8_CLEF_FA.runSetId = 'runSet_Table8_CLEF_FA';
+COLLECTION.Table8_CLEF_FA.id = 'Table9_CLEF_FA';
+COLLECTION.Table8_CLEF_FA.runSetId = 'runSet_Table9_CLEF_FA';
 COLLECTION.Table8_CLEF_FA.color = rgb('GreenYellow');
 COLLECTION.Table8_CLEF_FA.RelevanceDegrees = {'NotRelevant', 'Relevant'};
 COLLECTION.Table8_CLEF_FA.RelevanceGrades = 0:1;
@@ -182,8 +182,8 @@ COLLECTION.Table4_NY.RelevanceDegrees = {'NotRelevant', 'Relevant', 'HighlyRelev
 COLLECTION.Table4_NY.RelevanceGrades = 0:2;
 COLLECTION.Table4_NY.poolFile = 'NY';
 
-COLLECTION.Table5_NY.id = 'Table5_NY';
-COLLECTION.Table5_NY.runSetId = 'runSet_Table5_NY';
+COLLECTION.Table5_NY.id = 'Table6_NY';
+COLLECTION.Table5_NY.runSetId = 'runSet_Table6_NY';
 COLLECTION.Table5_NY.color = rgb('GreenYellow');
 COLLECTION.Table5_NY.RelevanceDegrees = {'NotRelevant', 'Relevant', 'HighlyRelevant'};
 COLLECTION.Table5_NY.RelevanceGrades = 0:2;

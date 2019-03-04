@@ -177,7 +177,7 @@ close;
 figure();
 hf = plot([0,1],[0,1], 'r');
 hold on;
-hf = scatter(ap_Table8_CLEF_IT{:,2}, ap_Table8_CLEF_IT{:,6}, 'filled', 'k');
+hf = scatter(ap_Table9_CLEF_IT{:,2}, ap_Table9_CLEF_IT{:,6}, 'filled', 'k');
 
 
 axis([0 1 0 1]);
@@ -189,9 +189,9 @@ ylabel('NVSM', 'FontSize', 20);
 title('CLEF IT - Topic-based analysis (Average Precision)', 'FontSize', 18);
 
 dx = 0.008; dy = 0.008; % displacement so the text does not overlay the data points
-text(ap_Table8_CLEF_IT{:,2}+dx, ap_Table8_CLEF_IT{:,6}+dy, ap_Table8_CLEF_IT.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
+text(ap_Table9_CLEF_IT{:,2}+dx, ap_Table9_CLEF_IT{:,6}+dy, ap_Table9_CLEF_IT.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
 
-print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table8_CLEF_IT' '.pdf']);
+print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table9_CLEF_IT' '.pdf']);
 
 
 hold off;
@@ -202,7 +202,7 @@ close;
 figure();
 hf = plot([0,1],[0,1], 'r');
 hold on;
-hf = scatter(ap_Table8_CLEF_DE{:,2}, ap_Table8_CLEF_DE{:,6}, 'filled', 'k');
+hf = scatter(ap_Table9_CLEF_DE{:,2}, ap_Table9_CLEF_DE{:,6}, 'filled', 'k');
 
 
 axis([0 1 0 1]);
@@ -214,9 +214,9 @@ ylabel('NVSM', 'FontSize', 20);
 title('CLEF DE - Topic-based analysis (Average Precision)', 'FontSize', 18);
 
 dx = 0.008; dy = 0.008; % displacement so the text does not overlay the data points
-text(ap_Table8_CLEF_DE{:,2}+dx, ap_Table8_CLEF_DE{:,6}+dy, ap_Table8_CLEF_DE.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
+text(ap_Table9_CLEF_DE{:,2}+dx, ap_Table9_CLEF_DE{:,6}+dy, ap_Table9_CLEF_DE.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
 
-print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table8_CLEF_DE' '.pdf']);
+print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table9_CLEF_DE' '.pdf']);
 
 
 hold off;
@@ -227,7 +227,7 @@ close;
 figure();
 hf = plot([0,1],[0,1], 'r');
 hold on;
-hf = scatter(ap_Table8_CLEF_FA{:,2}, ap_Table8_CLEF_FA{:,6}, 'filled', 'k');
+hf = scatter(ap_Table9_CLEF_FA{:,2}, ap_Table9_CLEF_FA{:,6}, 'filled', 'k');
 
 
 axis([0 1 0 1]);
@@ -239,9 +239,9 @@ ylabel('NVSM', 'FontSize', 20);
 title('CLEF FA - Topic-based analysis (Average Precision)', 'FontSize', 18);
 
 dx = 0.008; dy = 0.008; % displacement so the text does not overlay the data points
-text(ap_Table8_CLEF_FA{:,2}+dx, ap_Table8_CLEF_FA{:,6}+dy, ap_Table8_CLEF_FA.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
+text(ap_Table9_CLEF_FA{:,2}+dx, ap_Table9_CLEF_FA{:,6}+dy, ap_Table9_CLEF_FA.Properties.RowNames, 'Color', 'b', 'FontSize', 10);
 
-print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table8_CLEF_FA' '.pdf']);
+print('-dpdf', '-r300', ['/Users/silvello/Dropbox/Papers/2019/IPM2019-MPS/data/plots/scatter_ap_Table9_CLEF_FA' '.pdf']);
 
 
 hold off;
