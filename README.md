@@ -5,6 +5,7 @@ Content of the directories:
 - **code**: this folder contains the Matlab code for running the analyses and reproducing the experimental evaluation. It requires the [MATTERS library](http://matters.dei.unipd.it/). This folder also contains the source code of NVSM (Python) and DRMM (Python).
 - **data**: the runs, pools and measure files produced by the experimental evaluation (Matlab) and all the plots used in the paper. 
 - **figure**:  the plots used in the paper (pdf + Omnigraffle sources and .mat figures). 
+- **DRMM_repro**: contains the code to prepare the input for DRMM algorithm. 
 
 NVSM and DRMM source code and settings
 
@@ -21,6 +22,11 @@ NVSM requires the following directory tree with the following folder names (exam
 				- qrels: contains qrels for target collection
 
 		- trec_eval: folder containing trec_eval from NIST TREC
+
+DRMM: 
+
+The code to compute the input data for DRMM algorithm is contained in the DRMM_repro directory. It can be run on the included data (cranfield collection) in the DRMM_repro/data directory after extracting to the same folder the data in the processed_corpus.zip archive.
+
 
 ## Reference
 1. Paper under review.
