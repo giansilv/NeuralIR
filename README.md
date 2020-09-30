@@ -28,7 +28,7 @@ DRMM:
 The code to compute the input data for DRMM algorithm is contained in the DRMM_repro directory. It can be run on the included data (cranfield collection) in the DRMM_repro/data directory after extracting to the same folder the data in the processed_corpus.zip archive.
 
 
-## Reference
+## References
 1. Stefano Marchesin, Alberto Purpura, Gianmaria Silvello: Focal Elements of Neural Information Retrieval Models. An Outlook through a Reproducibility Study. IP&M 2019. In press (https://doi.org/10.1016/j.ipm.2019.102109) 
 2. Christophe Van Gysel, Maarten de Rijke, Evangelos Kanoulas: Neural Vector Spaces for Unsupervised Information Retrieval. ACM Trans. Inf. Syst. 36(4): 38:1-38:25 (2018). (https://dl.acm.org/citation.cfm?doid=3211967.3196826)
 3. Jiafeng Guo, Yixing Fan, Qingyao Ai, W. Bruce Croft: A Deep Relevance Matching Model for Ad-hoc Retrieval. CIKM 2016: 55-64. (https://dl.acm.org/citation.cfm?doid=2983323.2983769)
